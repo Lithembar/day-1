@@ -84,3 +84,42 @@
 //let split =myString.split('')
 //console.log(split)
 
+let value = 2
+switch (value){
+    case 1:
+        console.log("It is sunny");
+        break;
+    case 2:
+        console.log("It is cloudy");
+        break;
+    case 3:
+        console.log("It is raining");
+        break;
+    default:
+        console.log("Couldn't read the value");
+        break;
+}
+
+
+   //version 2 of switch statements
+//let num = 5
+//switch (true) {
+  //  case num %2==0:
+    //    console.log('Number is even');
+      //  break;
+    //default:
+      //  console.log('Number is odd');
+        //break;
+//}
+
+
+//tenary
+//let num = 11
+//console.log(num>10 ?'This is not true');
+
+let studentLC = true
+console.log()
+
+
+
+
