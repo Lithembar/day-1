@@ -146,12 +146,77 @@ switch (value){
 //for (let x=0; x<Arrayl.length ; x++){
 //  console.log(myArray[x])
 //}
-let myArray=['Esona, Avela, Zenande, Mila']
+//let myArray=['Esona, Avela, Zenande, Mila']
 //for (let myArray of myArray) {
   //console.log(myArray)
 //}
-for (let index in myArray) {
-  console.log(myArray[index])
+//for (let index in myArray) {
+  //console.log(myArray[index])
+//}
+
+
+//13 NOV 
+
+//function breakdown
+//function greet(){
+  //console.log('Hi Lithemba');
+  
+//}
+//greet()
+
+//using funtion with arguments(without return)
+//function greet(name){
+ // console.log('Hi +name');
+  
+//}
+//greet('Lithemba')
+
+//with return
+
+function returned(a){
+     return a
 }
 
+console.log('The number is' + returned('forty five'));
+
+//funtion expression
+//let run = function(){
+  //console.log('You are running');
+  
+//}
+//run()
+
+//let run = function(a){
+  //console.log('You are running'+' '+ a);
+  
+//}
+//run('alone')
+
+//Self-involving funtion peak anonymous fuction
+
+(function(){
+  console.log("haha I'm a ghost");
+  
+})()
+
+//arrow funtion
+//let walk = ()=>{
+  //  console.log('You are walking');
+    
+//}
+
+//walk()
+
+//let walk = ()=>console.log('You are walking');
+  
+//walk()
+
+//let walk = ()=>{
+  //return 'You are walking';
+
+//}
+  
+//console.log('You are walking');
+
+//SCOPING LOCAL AND GLOBAL
 
