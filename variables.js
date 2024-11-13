@@ -117,9 +117,41 @@ switch (value){
 //let num = 11
 //console.log(num>10 ?'This is not true');
 
-let studentLC = true
-console.log()
+//let studentLC = true
+//console.log()
 
 
+//12 NOVEMBER
+// for loop
+//for (let x=1; x<10; x++){
+  //console.log(x)
+//}
+
+//WHILE LOOP
+//let w=1
+//while(w<5){
+//    console.log('Lithemba');
+//    w++
+//}
+
+//DO WHILE LOOP
+//let w=1
+//do{
+//  console.log('Lithemba')
+//} while(w<5)
+
+//for of loop
+
+//let myArray=['Esona, Avela, Zenande, Mila'] 
+//for (let x=0; x<Arrayl.length ; x++){
+//  console.log(myArray[x])
+//}
+let myArray=['Esona, Avela, Zenande, Mila']
+//for (let myArray of myArray) {
+  //console.log(myArray)
+//}
+for (let index in myArray) {
+  console.log(myArray[index])
+}
 
 
