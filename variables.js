@@ -217,7 +217,7 @@
 //}
   
 //console.log('You are walking');
-
+ 
 //SCOPING LOCAL AND GLOBAL
 
 
@@ -279,33 +279,59 @@
 //  }
 //  let  input = prompt('What is your name?')
 //  console.log(input);
-function CreatePerson(name,surname,hairType){
-    this.name = name;
-    this.surname = surname;
-    this.hairType = hairType;
-}
- let person = new CreatePerson('Yandile','Matyityilili','Bold')
- let person2 = new CreatePerson('Ethan','Brown','Straight')
- let people = [person,person2]
- console.log(people);
-for (let object of people){
-    if (object.hairType == 'Straight'){
-        console.log(object.name)
-    }
-}
-let cars =[
-    {
-        brand:'Toyota',
-        models:[{type:'Corolla'}]
-    },
-    {
-        brand:'BMW',
-        models:[{}],
-    }
-]
+//function CreatePerson(name,surname,hairType){
+  //  this.name = name;
+    //this.surname = surname;
+    //this.hairType = hairType;
+//}
+ //let person = new CreatePerson('Yandile','Matyityilili','Bold')
+ //let person2 = new CreatePerson('Ethan','Brown','Straight')
+ //let people = [person,person2]
+ //console.log(people);
+//for (let object of people){
+  //  if (object.hairType == 'Straight'){
+   //     console.log(object.name)
+    //}
+//}
+//let cars =[
+    //{
+        //brand:'Toyota',
+      //  models:[{type:'Corolla'}]
+    //},
+    //{
+      //  brand:'BMW',
+    //    models:[{}],
+  //  }
+//]
 
 
+//ERROR Hndling
+
+//function times(a,b){//also wotks as a string''
+  //create a customcode using if statements
+
+ //if(typeof a !='number' !! typeof b != 'number')
+  //throw new Error ('Ho1\' 'up a or b is not a number');
+  //return a*b
+//}  
+
+//try{
+    //console.log(times(a));
+    //console.log('Hi times');
+    
+    
+//} catch(e){
+    //console.log(e);
+    //console.log('this is after the error');
+       
+//} finally{
+  //('yay! I have ran and I\'m out of breath')
+//}
 
 
-
-
+const groupMembers = [
+  { name: "Azola", favColor: "Blue", hobby: "Reading" },
+  { name: "Zen", favColor: "Green", hobby: "Coding" },
+  { name: "Yandile", favColor: "Red", hobby: "Gaming" }
+];
+console.log(groupMembers);
